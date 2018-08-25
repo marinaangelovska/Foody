@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC74E3720971C430026E3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E3620971C430026E3D9 /* AppDelegate.swift */; };
+		AEC74E3920971C430026E3D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E3820971C430026E3D9 /* LoginViewController.swift */; };
+		AEC74E3C20971C430026E3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC74E3A20971C430026E3D9 /* Main.storyboard */; };
+		AEC74E3E20971C450026E3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC74E3D20971C450026E3D9 /* Assets.xcassets */; };
+		AEC74E4120971C450026E3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC74E3F20971C450026E3D9 /* LaunchScreen.storyboard */; };
+		AEC74E4920971E410026E3D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEC74E4820971E410026E3D9 /* GoogleService-Info.plist */; };
+		AEC74E4B209723310026E3D9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E4A209723310026E3D9 /* RegisterViewController.swift */; };
+		AEC74E4D209728E10026E3D9 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E4C209728E10026E3D9 /* FoodViewController.swift */; };
+		AEC74E4F20972EE40026E3D9 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E4E20972EE40026E3D9 /* CustomSegue.swift */; };
+		AEC74E51209773840026E3D9 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E50209773840026E3D9 /* Food.swift */; };
+		AEC74E552097763E0026E3D9 /* CustomFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E542097763E0026E3D9 /* CustomFoodTableViewCell.swift */; };
+		AEC74E572098E2100026E3D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC74E562098E2100026E3D9 /* CoreLocation.framework */; };
+		AEC74E592098E2850026E3D9 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E582098E2850026E3D9 /* FoodDetailsViewController.swift */; };
+		AEC74E5B2099B8CE0026E3D9 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E5A2099B8CE0026E3D9 /* LoadingOverlay.swift */; };
+		AEC74E5E209A11400026E3D9 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E5D209A11400026E3D9 /* LogOutViewController.swift */; };
+		AEC74E60209A11490026E3D9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC74E5F209A11490026E3D9 /* SearchViewController.swift */; };
+		D99E6C4F2720EA8659E6BE0E /* Pods_Foody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47763C18A17E5920BF43310E /* Pods_Foody.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22E6C9CE4294A37DE30DE736 /* Pods-Foody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foody/Pods-Foody.release.xcconfig"; sourceTree = "<group>"; };
+		47763C18A17E5920BF43310E /* Pods_Foody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC74E3320971C430026E3D9 /* Foody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC74E3620971C430026E3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC74E3820971C430026E3D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEC74E3B20971C430026E3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC74E3D20971C450026E3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC74E4020971C450026E3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC74E4220971C450026E3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC74E4820971E410026E3D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEC74E4A209723310026E3D9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AEC74E4C209728E10026E3D9 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		AEC74E4E20972EE40026E3D9 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		AEC74E50209773840026E3D9 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		AEC74E542097763E0026E3D9 /* CustomFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFoodTableViewCell.swift; sourceTree = "<group>"; };
+		AEC74E562098E2100026E3D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEC74E582098E2850026E3D9 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		AEC74E5A2099B8CE0026E3D9 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		AEC74E5D209A11400026E3D9 /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		AEC74E5F209A11490026E3D9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E1490EE4F64745650AEA8715 /* Pods-Foody.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foody.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foody/Pods-Foody.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC74E3020971C430026E3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC74E572098E2100026E3D9 /* CoreLocation.framework in Frameworks */,
+				D99E6C4F2720EA8659E6BE0E /* Pods_Foody.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B727B81525650B0F409BC08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC74E562098E2100026E3D9 /* CoreLocation.framework */,
+				47763C18A17E5920BF43310E /* Pods_Foody.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E039B4D921F7FFF9109AFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1490EE4F64745650AEA8715 /* Pods-Foody.debug.xcconfig */,
+				22E6C9CE4294A37DE30DE736 /* Pods-Foody.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEC74E2A20971C430026E3D9 = {
+			isa = PBXGroup;
+			children = (
+				AEC74E3520971C430026E3D9 /* Foody */,
+				AEC74E3420971C430026E3D9 /* Products */,
+				8E039B4D921F7FFF9109AFF2 /* Pods */,
+				1B727B81525650B0F409BC08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC74E3420971C430026E3D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC74E3320971C430026E3D9 /* Foody.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC74E3520971C430026E3D9 /* Foody */ = {
+			isa = PBXGroup;
+			children = (
+				AEC74E5C209A0EBA0026E3D9 /* Views */,
+				AEC74E53209773940026E3D9 /* Controllers */,
+				AEC74E522097738C0026E3D9 /* Models */,
+				AEC74E3D20971C450026E3D9 /* Assets.xcassets */,
+				AEC74E3A20971C430026E3D9 /* Main.storyboard */,
+				AEC74E3620971C430026E3D9 /* AppDelegate.swift */,
+				AEC74E3F20971C450026E3D9 /* LaunchScreen.storyboard */,
+				AEC74E4220971C450026E3D9 /* Info.plist */,
+				AEC74E4820971E410026E3D9 /* GoogleService-Info.plist */,
+			);
+			path = Foody;
+			sourceTree = "<group>";
+		};
+		AEC74E522097738C0026E3D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEC74E50209773840026E3D9 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEC74E53209773940026E3D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEC74E3820971C430026E3D9 /* LoginViewController.swift */,
+				AEC74E4A209723310026E3D9 /* RegisterViewController.swift */,
+				AEC74E4C209728E10026E3D9 /* FoodViewController.swift */,
+				AEC74E582098E2850026E3D9 /* FoodDetailsViewController.swift */,
+				AEC74E5D209A11400026E3D9 /* LogOutViewController.swift */,
+				AEC74E5F209A11490026E3D9 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AEC74E5C209A0EBA0026E3D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEC74E542097763E0026E3D9 /* CustomFoodTableViewCell.swift */,
+				AEC74E4E20972EE40026E3D9 /* CustomSegue.swift */,
+				AEC74E5A2099B8CE0026E3D9 /* LoadingOverlay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC74E3220971C430026E3D9 /* Foody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC74E4520971C450026E3D9 /* Build configuration list for PBXNativeTarget "Foody" */;
+			buildPhases = (
+				CAB6039DAFF1B372C22A1746 /* [CP] Check Pods Manifest.lock */,
+				AEC74E2F20971C430026E3D9 /* Sources */,
+				AEC74E3020971C430026E3D9 /* Frameworks */,
+				AEC74E3120971C430026E3D9 /* Resources */,
+				252CCF67C2702575DECFDF0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foody;
+			productName = Foody;
+			productReference = AEC74E3320971C430026E3D9 /* Foody.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC74E2B20971C430026E3D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Marina Angelovska";
+				TargetAttributes = {
+					AEC74E3220971C430026E3D9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AEC74E2E20971C430026E3D9 /* Build configuration list for PBXProject "Foody" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC74E2A20971C430026E3D9;
+			productRefGroup = AEC74E3420971C430026E3D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC74E3220971C430026E3D9 /* Foody */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC74E3120971C430026E3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC74E4120971C450026E3D9 /* LaunchScreen.storyboard in Resources */,
+				AEC74E4920971E410026E3D9 /* GoogleService-Info.plist in Resources */,
+				AEC74E3E20971C450026E3D9 /* Assets.xcassets in Resources */,
+				AEC74E3C20971C430026E3D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		252CCF67C2702575DECFDF0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Foody/Pods-Foody-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foody/Pods-Foody-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB6039DAFF1B372C22A1746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foody-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC74E2F20971C430026E3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC74E4B209723310026E3D9 /* RegisterViewController.swift in Sources */,
+				AEC74E60209A11490026E3D9 /* SearchViewController.swift in Sources */,
+				AEC74E3920971C430026E3D9 /* LoginViewController.swift in Sources */,
+				AEC74E4D209728E10026E3D9 /* FoodViewController.swift in Sources */,
+				AEC74E4F20972EE40026E3D9 /* CustomSegue.swift in Sources */,
+				AEC74E3720971C430026E3D9 /* AppDelegate.swift in Sources */,
+				AEC74E51209773840026E3D9 /* Food.swift in Sources */,
+				AEC74E552097763E0026E3D9 /* CustomFoodTableViewCell.swift in Sources */,
+				AEC74E592098E2850026E3D9 /* FoodDetailsViewController.swift in Sources */,
+				AEC74E5E209A11400026E3D9 /* LogOutViewController.swift in Sources */,
+				AEC74E5B2099B8CE0026E3D9 /* LoadingOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEC74E3A20971C430026E3D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC74E3B20971C430026E3D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC74E3F20971C450026E3D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC74E4020971C450026E3D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC74E4320971C450026E3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC74E4420971C450026E3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC74E4620971C450026E3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1490EE4F64745650AEA8715 /* Pods-Foody.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAXHFS9373;
+				INFOPLIST_FILE = Foody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FINKI.Foody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC74E4720971C450026E3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E6C9CE4294A37DE30DE736 /* Pods-Foody.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAXHFS9373;
+				INFOPLIST_FILE = Foody/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FINKI.Foody;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC74E2E20971C430026E3D9 /* Build configuration list for PBXProject "Foody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC74E4320971C450026E3D9 /* Debug */,
+				AEC74E4420971C450026E3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC74E4520971C450026E3D9 /* Build configuration list for PBXNativeTarget "Foody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC74E4620971C450026E3D9 /* Debug */,
+				AEC74E4720971C450026E3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC74E2B20971C430026E3D9 /* Project object */;
+}

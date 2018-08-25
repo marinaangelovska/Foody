@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>99537070398-ne9sdsg7qeh5re2lods01vt9gfvbc9kb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.99537070398-ne9sdsg7qeh5re2lods01vt9gfvbc9kb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBhhCvkJljAaJ1ck1qFJa_RXmmp5IQSbGE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>99537070398</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>FINKI.Foody</string>
+	<key>PROJECT_ID</key>
+	<string>foody-d181e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foody-d181e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:99537070398:ios:16c5356b7974dad3</string>
+	<key>DATABASE_URL</key>
+	<string>https://foody-d181e.firebaseio.com</string>
+</dict>
+</plist>
